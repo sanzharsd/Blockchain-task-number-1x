@@ -1,0 +1,23 @@
+[common.consensus_config]
+max_message_len = 1048576
+max_propose_timeout = 200
+min_propose_timeout = 10
+peers_timeout = 10000
+propose_timeout_threshold = 500
+round_timeout = 3000
+status_timeout = 5000
+txs_block_limit = 1000
+
+[common.general_config]
+validators_count = 4
+
+[common.services_config]
+
+[node]
+addr = "127.0.0.1:6334"
+
+[node.services_public_configs]
+
+[node.validator_keys]
+consensus_key = "5c39991eab3db3ae371ee8d03cb57d6fd97f4efa1c2e7cc95a1740e2f68e0ba2"
+service_key = "45ea725995bed6f5f7cfb6d28e8dd63057fc438bc73e09933c704c9cb33efc1c"
